@@ -93,7 +93,7 @@ footer,h2{
 		background: #EA80FC;
 	}
 }
-@-keyframes rainbow {
+@keyframes rainbow {
   0% {
     background: #E57373;
   }
