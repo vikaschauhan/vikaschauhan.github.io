@@ -30,134 +30,133 @@ footer,h2{
 
 @-webkit-keyframes rainbow {
   0% {
-    background: #ef5350;
+    background: #E57373;
   }
 	5%{
-		background: #f44336; 
+		background: #F06292; 
 	}
 	10% {
-    background: #ec407a;
+    background: #BA68C8;
   }
   15% {
-    background: #e91e63;
+    background: #9575CD;
   }
   20% {
-    background: #ab47bc;
+    background: #7986CB;
   }
   25% {
-    background: #9c27b0;
+    background: #64B5F6;
   }
   30% {
-    background: #7e57c2;
+    background: #4FC3F7;
   }
   35% {
-    background: #673ab7;
+    background: #4DD0E1;
   }
   40% {
-    background: #5c6bc0;
+    background: #4DB6AC;
   }
   45% {
-    background: #3f51b5;
+    background: #81C784;
   }
 	50% {
-    background: #42a5f5;
+    background: #AED581;
   }
   55% {
-    background: #2196f3;
+    background: #DCE775;
   }
   60% {
-    background: #29b6f6;
+    background: #FFF176;
   }
 65% {
-    background: #03a9f4;
+    background: #FFD54F;
   }
   70% {
-    background: #26c6da;
+    background: #FFB74D;
   }
   75% {
-    background: #00bcd4;
+    background: #FF8A65;
   }
   80% {
-    background: #26a69a;
+    background: #A1887F;
   }
 	85% {
-    background: #009688;
+    background: #E0E0E0;
   }
  90% {
-    background: #4caf50;
+    background: #FF8A80;
   }
   95% {
-    background: #8bc34a;
+    background: #FF80AB;
   }
 	100{
-		background: #cddc39;
+		background: #EA80FC;
 	}
 }
-@keyframes rainbow {
- 0% {
-    background: #ef5350;
+@-keyframes rainbow {
+  0% {
+    background: #E57373;
   }
 	5%{
-		background: #f44336; 
+		background: #F06292; 
 	}
 	10% {
-    background: #ec407a;
+    background: #BA68C8;
   }
   15% {
-    background: #e91e63;
+    background: #9575CD;
   }
   20% {
-    background: #ab47bc;
+    background: #7986CB;
   }
   25% {
-    background: #9c27b0;
+    background: #64B5F6;
   }
   30% {
-    background: #7e57c2;
+    background: #4FC3F7;
   }
   35% {
-    background: #673ab7;
+    background: #4DD0E1;
   }
   40% {
-    background: #5c6bc0;
+    background: #4DB6AC;
   }
   45% {
-    background: #3f51b5;
+    background: #81C784;
   }
 	50% {
-    background: #42a5f5;
+    background: #AED581;
   }
   55% {
-    background: #2196f3;
+    background: #DCE775;
   }
   60% {
-    background: #29b6f6;
+    background: #FFF176;
   }
 65% {
-    background: #03a9f4;
+    background: #FFD54F;
   }
   70% {
-    background: #26c6da;
+    background: #FFB74D;
   }
   75% {
-    background: #00bcd4;
+    background: #FF8A65;
   }
   80% {
-    background: #26a69a;
+    background: #A1887F;
   }
 	85% {
-    background: #009688;
+    background: #E0E0E0;
   }
  90% {
-    background: #4caf50;
+    background: #FF8A80;
   }
   95% {
-    background: #8bc34a;
+    background: #FF80AB;
   }
 	100{
-		background: #cddc39;
+		background: #EA80FC;
 	}
-
 }
 
 
