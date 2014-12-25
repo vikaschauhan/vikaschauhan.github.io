@@ -17,7 +17,9 @@
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
-          user-select: none;}
+          user-select: none;
+-webkit-transition: all 400ms ease;
+transition: all 400ms ease}
 footer,h2{
 		background-color: #00BCD4;
 -webkit-animation: rainbow 60s infinite;
@@ -26,6 +28,8 @@ footer,h2{
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease
 }
 
 @-webkit-keyframes rainbow {
