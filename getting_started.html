@@ -1,0 +1,96 @@
+<html ng-app="huntDiscount">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+
+<body ng-controller="ProductListCtrl">
+
+
+    <nav class="white" style="top:0; z-index:100;position:fixed;width:100%;">
+        <div class="container">
+            <div class="row center">
+                <div class="col s4">
+                    <a class="waves-effect waves-light btn-large center">Hunt <i class="mdi-content-send right"></i></a>
+                </div>
+                <div class="col s8">
+                    <form>
+                        <div class="input-field black-text">
+                            <input ng-model="query" id="search" type="text" required>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col s12 m6 l3" ng-repeat="product in products | filter:query">
+            <div class="card center">
+                <div class="card-image">
+                    <img src="{{ product.image }}" class="responsive-img" style="height: 250px; width: 250px;">
+                </div>
+                <div class="card-content">
+                    <p class="card-title grey-text darken-4">{{ product.name }} <i class="mdi-navigation-more-vert right"></i>
+                    </p>
+
+                    <a href="#" class="waves-effect waves-light btn">{{ product.discount }}</a>
+                </div>
+                <div class="card-action">
+                    <a href="#">Ends : {{product.end}}</a>
+                    <a href='#'>Tag: {{product.tag}}</a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text darken-4">Rs. {{product.price}} <i class="mdi-navigation-close right"></i></span>
+                    <a href="{{product.link}}"></a>
+                    <ul class="collection">
+                        <li class="collection-item">Seller: {{product.seller}}</li>
+                        <li class="collection-item">Location: {{product.location}}</li>
+                        <li class="collection-item">Category: {{product.category}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <ul class="contextMenu" hidden>
+        <li><a href="index.html"><i class="fa fa-home"></i> Hunt Discount</a>
+        </li>
+        <li><a href="getting_started.html"><i class="fa fa-sitemap"></i> Search</a>
+        </li>
+        <li><a href="www.nigmeta.com"><i class="fa fa-envelope"></i> Nigmeta</a>
+        </li>
+        <li>
+            <a class="fa fa-facebook" href="#"></a>
+            <a class="fa fa-twitter" href="#"></a>
+            <a class="fa fa-google-plus" href="#"></a>
+            <a class="fa fa-linkedin" href="#"></a>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
